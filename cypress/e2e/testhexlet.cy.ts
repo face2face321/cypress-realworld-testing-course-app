@@ -9,7 +9,7 @@ describe("first tests", () => {
         cy.get(":nth-child(2) > .nav-link").click()
     })
 
-    it("Go to Instock", () => {
+    it("Go to In stock", () => {
       cy.visit("https://hexlet-products-store.vercel.app")
       cy.get("#isInStock").click()
     })
